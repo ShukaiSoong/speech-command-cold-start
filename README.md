@@ -1,5 +1,3 @@
-# speech-command-cold-start
-Speech command classification system for intelligent hardware cold-start scenarios.
 # Speech Command Cold Start System
 
 基于讯飞生态的轻量化算法实习项目，面向智能硬件语音指令的快速冷启动系统。
@@ -7,6 +5,7 @@ Speech command classification system for intelligent hardware cold-start scenari
 ## 项目简介
 
 针对智能硬件场景中新设备、新方言数据不足的问题，构建轻量化语音指令分类系统，完成数据处理、模型训练、迁移学习、量化部署及实时Demo开发。
+Dataset is not included due to size limitation.
 
 ## 主要工作
 
@@ -43,10 +42,15 @@ Speech command classification system for intelligent hardware cold-start scenari
 └── README.md
 ```
 
-## 环境配置
+## Model Checkpoints
 
-```bash
-pip install -r requirements.txt
+Model checkpoints are not included in this repository due to size limitations.
+
+Key results:
+
+- ResNet152: 0.8435 Macro-F1
+- MobileNetV3Large + SpecAugment: 0.8335 Macro-F1
+- INT8 Accuracy: 0.8708
 ```
 
 ## 运行
